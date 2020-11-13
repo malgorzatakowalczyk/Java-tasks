@@ -40,5 +40,12 @@ Porownania dokonaj dla dwoch, trzech i pieciu plikow.<br />
 - tworzenie pustego drzewa,<br />
 - dodawanie/usuwanie elementu do/z drzewa,<br />
 - wypisywanie w kolejnosci rosnacej zawartosci drzewa.<br />
+ 
+ 
+ Jak uruchomić w konsoli? <br />
+1. Należy sciagnac folder z plikami a następnie w konsoli za pomocą polecenia cd przejść do insteresującego nas podfolderu <br />
+2. Skompilować wszystkie pliki w folderze za pomocą polecenia javac np. javac Main.java <br />
+3. Po poprawnym skompilowaniu uruchomić plik za pomocą polecenia java np. java Main <br />
+W przypadku niektorych zadan przy uruchamianiu programu nalezy podac argument/argumenty funkcji main np. java Main Witaj <br />
 
-
+Jeśli polecenie javac nie działa należy dodać zmienną środowiskową PATH do folderu, w którym jest zainstalowana JAVA np. C:\Program Files\Java\jdk1.8.0_16\bin\javac
