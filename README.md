@@ -1,4 +1,4 @@
-Zadania na zajęcia Programowanie Obiektowe 2 i Projektowanie Aplikcacji Internetowych 
+Zadania na zajęcia Programowanie Obiektowe 2 i Projektowanie Aplikacji Internetowych 
 Polecenia PO2 
 1. Napisz program czytajacy argumenty wywolania programu i konwertujacy je do Integer. 
 Zmodyfikuj program w ten sposob, aby kolejne argumenty byly wspolczynikami wielomianu postaci Ax2+Bx+C=0. Policz pierwiastki tego wielomianu. <br />
