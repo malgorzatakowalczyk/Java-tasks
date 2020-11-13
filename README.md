@@ -1,5 +1,5 @@
-Zadania na zajęcia Programowanie Obiektowe 2 i Projektowanie Aplikacji Internetowych 
-Polecenia PO2 
+<b>Zadania na zajęcia Programowanie Obiektowe 2 i Projektowanie Aplikacji Internetowych </b> <br />
+<b>Polecenia PO2</b> 
 1. Napisz program czytajacy argumenty wywolania programu i konwertujacy je do Integer. 
 Zmodyfikuj program w ten sposob, aby kolejne argumenty byly wspolczynikami wielomianu postaci Ax2+Bx+C=0. Policz pierwiastki tego wielomianu. <br />
 2. Napisz program, ktory pobiera dwie liczby oraz lancuch znakow z wiersza polecen oraz wyswietla fragment podanego lancucha okreslony wprowadzonymi liczbami. Na przyklad:
@@ -27,7 +27,7 @@ Klasa Firma ma miec nazwe i adres( w tym NrTelefonu). Utworz kilka obiektow klas
 poslugujac sie jako kluczem numerem telefonicznym. Nastepnie wypisz utworzona w ten sposob ksiazke telefoniczna za pomoca iteratora.
 
 
-Polecenia PAI:
+<b>Polecenia PAI:</b><br />
 1. Napisz program, ktory pobiera liste plikow z linii polecen i wyswietla liczbe wierszy kazdego z nich. 
 Program powinien utworzyc jeden watek dla kazdego z plikow i uzyc tych watkow do zliczenia liczby wierszy kazdego z plikow rownoczenie.
 Utworz wersje programu, ktora odczytuje pliki nie jednoczesnie a sekwencyjnie. <br />
@@ -42,7 +42,7 @@ Porownania dokonaj dla dwoch, trzech i pieciu plikow.<br />
 - wypisywanie w kolejnosci rosnacej zawartosci drzewa.<br />
  
  
- Jak uruchomić w konsoli? <br />
+ <b>Jak uruchomić w konsoli?</b> <br />
 1. Należy sciagnac folder z plikami a następnie w konsoli za pomocą polecenia cd przejść do insteresującego nas podfolderu <br />
 2. Skompilować wszystkie pliki w folderze za pomocą polecenia javac np. javac Main.java <br />
 3. Po poprawnym skompilowaniu uruchomić plik za pomocą polecenia java np. java Main <br />
