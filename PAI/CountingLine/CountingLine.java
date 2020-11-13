@@ -3,26 +3,27 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package countingline;
 
 /**
  *
  * @author Malgorzata Kowalczyk
  */
-import static countingline.Multi.multi;
-import static countingline.Single.single;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
 public class CountingLine {
 
+    CountingLine() {
+
+    }
+
     public static void main(String[] args) {
         if (args.length < 1) {
             System.out.println("Not enough arguments");
         } else {
-            long executionTimeOfFirstMethod = multi(args);
-            long executionTimeOfSecondMethod = single(args);
+            long executionTimeOfFirstMethod = Multi.multi(args);
+            long executionTimeOfSecondMethod = Single.single(args);
             System.out.println("\nExcecution time of the first method:\t" + executionTimeOfFirstMethod);
             System.out.println("Excecution time of the second method:\t" + executionTimeOfSecondMethod);
         }

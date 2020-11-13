@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package countingline;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

@@ -3,9 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package countingline;
-
-import static countingline.CountingLine.countingLinesInAFile;
 
 /**
  *
@@ -17,7 +14,7 @@ public class Single {
         System.out.println("\nSecond method");
         long timeBefore = System.currentTimeMillis();
         for (int i = 0; i < args.length; i++) {
-            System.out.println("File " + args[i] + ": " + countingLinesInAFile(args[i]) + " lines");
+            System.out.println("File " + args[i] + ": " + CountingLine.countingLinesInAFile(args[i]) + " lines");
         }
         long timeAfter = System.currentTimeMillis();
         long executionTime = timeAfter - timeBefore;
