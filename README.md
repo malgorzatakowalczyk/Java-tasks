@@ -2,7 +2,7 @@ Zadania na zajęcia Programowanie Obiektowe 2 i Projektowanie Aplikcacji Interne
 Polecenia PO2 
 1. Napisz program czytajacy argumenty wywolania programu i konwertujacy je do Integer. 
 Zmodyfikuj program w ten sposob, aby kolejne argumenty byly wspolczynikami wielomianu postaci Ax2+Bx+C=0. Policz pierwiastki tego wielomianu. <br />
-2.Napisz program, ktory pobiera dwie liczby oraz lancuch znakow z wiersza polecen oraz wyswietla fragment podanego lancucha okreslony wprowadzonymi liczbami. Na przyklad:
+2. Napisz program, ktory pobiera dwie liczby oraz lancuch znakow z wiersza polecen oraz wyswietla fragment podanego lancucha okreslony wprowadzonymi liczbami. Na przyklad:
 java Substring Witaj 2 4<br />
 powinien wyswietlic:<br />
 taj<br />
