@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="379.0" prefWidth="479.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.ClientController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="478.4000244140625" minWidth="10.0" prefWidth="478.4000244140625" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints maxHeight="95.33332824707031" minHeight="0.0" prefHeight="55.33332697550456" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="200.0" minHeight="10.0" prefHeight="53.33333969116211" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="306.0000012715658" minHeight="10.0" prefHeight="207.66665649414062" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="64.33334350585938" minHeight="10.0" prefHeight="64.33334350585938" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Button fx:id="book" alignment="CENTER" mnemonicParsing="false" onAction="#clickReserve" prefHeight="26.0" prefWidth="459.0" text="REZERWUJ" textAlignment="CENTER" GridPane.rowIndex="3">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Button>
+      <ListView fx:id="hoursList" depthTest="DISABLE" editable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="212.0" prefWidth="460.0" GridPane.rowIndex="2">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </ListView>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Wybierz pasujący termin" wrappingWidth="266.13669872283936" GridPane.rowIndex="1" />
+      <TextField fx:id="textName" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="460.0" text="Imie Nazwisko" />
+   </children>
+   <padding>
+      <Insets left="10.0" />
+   </padding>
+</GridPane>
