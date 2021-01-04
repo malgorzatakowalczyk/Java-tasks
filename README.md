@@ -40,7 +40,8 @@ Porownania dokonaj dla dwoch, trzech i pieciu plikow.<br />
 - tworzenie pustego drzewa,<br />
 - dodawanie/usuwanie elementu do/z drzewa,<br />
 - wypisywanie w kolejnosci rosnacej zawartosci drzewa.<br />
- 
+ 5. Napisz aplikacje wizualizujaca graficznie badz tekstowo ruch w Twojej sieci lokalnej. W celu zaznajomienia sie z problemem, zapoznaj sie z kodem: https://github.com/jpcap/jpcap/blob/master/src/java/net/sourceforge/jpcap/tutorial/sniffer/Sniffer.java
+6.  Aplikacja obslugujaca salon fryzjerski z jednym fryzjerem. Dla ulatwienia nalezy przyjac ze salon pracuje w godzinach 10-18 a kazda wizyta trwa rowno godzine. Klienci zglaszaja (i wycofuja) terminy wizyt ktore chcieliby odbyc. Klienci widza aktualny stan zajetosci fryzjera (na ekranie klienta wyswietla sie zmiana widoku po kazdej aktualizacji terminarza fryzjera). Serwer rozsyla komunikaty o zarezerwowanych i wycofanych uslugach (i terminach) do wszystkich klientow powodujac odswiezenie widoku klienta. Nalezy zadbac o odpowiednia synchronizacje dostepu do zasobow i ich aktualizacje. Nalezy zadbac o wydajnosc aplikacji: zuzycie procesora i wykorzystanie lacza sieciowego.
  
  <b>Jak uruchomić w konsoli?</b> <br />
 1. Należy sciagnac folder z plikami a następnie w konsoli za pomocą polecenia cd przejść do insteresującego nas podfolderu <br />
